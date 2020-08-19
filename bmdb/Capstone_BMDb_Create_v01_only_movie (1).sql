@@ -28,7 +28,7 @@ Director 	varchar(255) 	not null
     (10, 'Bride & Prejudice', 2004, 'PG-13', 'Gurinder Chadha'),
     (11, 'The Usual Suspects', 1995, 'R', 'Bryan Singer'),
     (12, 'Book Club', 2018, 'PG-13', 'Bill Holderman'),
-    (13, 'Music and Lyrics', 2007, 'PG-13', 'Marc Lawrence')
-    (14, 'Ferris Bueller"s Day Off', 1986, 'PG-13', 'John Hughes')
+    (13, 'Music and Lyrics', 2007, 'PG-13', 'Marc Lawrence'),
+    (14, 'Ferris Bueller''s Day Off', 1986, 'PG-13', 'John Hughes'),
     (15, 'Murder by Death', 1976, 'PG', 'Robert Moore')
     ;
