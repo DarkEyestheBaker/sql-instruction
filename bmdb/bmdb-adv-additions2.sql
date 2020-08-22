@@ -53,11 +53,11 @@ CONSTRAINT act_mov unique (ActorID, MovieID)
     (13, 'Music and Lyrics', 2007, 'PG-13', 'Marc Lawrence'),
     (14, 'Ferris Bueller''s Day Off', 1986, 'PG-13', 'John Hughes'),
     (15, 'Murder by Death', 1976, 'PG', 'Robert Moore'),
-	('Young Sherlock Holmes', 1985, 'PG-13', 'Barry Levinson'),
-    ('Amelie', 2001, 'R', 'Jean-Pierre Jeunet'),
-    ('Death at a Funeral', 2007, 'R', 'Frank Oz'),
-    ('Hidden Figures', 2016, 'PG', 'Theodore Melfi'),
-    ('Men in Black', 1997, 'PG-13', 'Barry Sonnenfeld')
+	(16, 'Young Sherlock Holmes', 1985, 'PG-13', 'Barry Levinson'),
+    (17, 'Amelie', 2001, 'R', 'Jean-Pierre Jeunet'),
+    (18, 'Death at a Funeral', 2007, 'R', 'Frank Oz'),
+    (19, 'Hidden Figures', 2016, 'PG', 'Theodore Melfi'),
+    (20, 'Men in Black', 1997, 'PG-13', 'Barry Sonnenfeld')
     ;
 
 -- Add some actors
@@ -185,8 +185,7 @@ insert into Credit value
     
     (39, 39, 20, 'Kay'),
     (40, 40, 20, 'Jay'),
-    
-    ;
+;
 
 
 

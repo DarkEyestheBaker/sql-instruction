@@ -43,17 +43,7 @@ CONSTRAINT act_mov unique (ActorID, MovieID)
   	(3, 'Fifth Element', 1997, 'PG-13', 'Luc Besson'),
  	(4, 'Better Off Dead', 1985, 'PG', 'Savage Steve Holland'),
     (5, 'Blazing Saddles', 1974, 'R', 'Mel Brooks'),
-    (6, 'Knives Out', 2019, 'PG-13', 'Rian Johnson'),
-    (7, 'Clue', 1985, 'PG', 'Jonathan Lynn'),
-    (8, 'The Sure Thing', 1985, 'PG-13', 'Rob Reiner'),
-    (9, 'Tucker and Dale vs Evil', 2010, 'R', 'Eli Craig'),
-    (10, 'Bride & Prejudice', 2004, 'PG-13', 'Gurinder Chadha'),
-    (11, 'The Usual Suspects', 1995, 'R', 'Bryan Singer'),
-    (12, 'Book Club', 2018, 'PG-13', 'Bill Holderman'),
-    (13, 'Music and Lyrics', 2007, 'PG-13', 'Marc Lawrence'),
-    (14, 'Ferris Bueller''s Day Off', 1986, 'PG-13', 'John Hughes'),
-    (15, 'Murder by Death', 1976, 'PG', 'Robert Moore')
-    ;
+    
 
 -- Add some actors
 -- Date fields are YYYY-MM-DD
@@ -69,12 +59,6 @@ CONSTRAINT act_mov unique (ActorID, MovieID)
     
     (7, 'John', 'Cusack', 'M', '1966-06-28'),
     (8, 'David', 'Ogden Stiers', 'M', '1942-10-31'),
-    
-    (9, 'Cleavon', 'Little', 'M', '1939-06-01'),
-    (10, 'Gene', 'Wilder', 'M', '1933-06-11'),
-    
-    (11, 'Daniel', 'Craig', 'M', '1968-03-02'),
-    (12, 'Ana', 'de Armas', 'F', '1988-04-30')
     ;
     
 -- Add Roles
