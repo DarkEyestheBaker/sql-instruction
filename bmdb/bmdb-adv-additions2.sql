@@ -108,20 +108,20 @@ CONSTRAINT act_mov unique (ActorID, MovieID)
     (29, 'Eileen', 'Brennan', 'F', '1932-09-03'),
     (30, 'Truman', 'Capote', 'M', '1924-09-30'),
     
-    ('Nicholas', 'Rowe', 'M', '1966-11-22'),
-    ('Alan', 'Cox', 'M', '1970-08-06'),
+    (31, 'Nicholas', 'Rowe', 'M', '1966-11-22'),
+    (32, 'Alan', 'Cox', 'M', '1970-08-06'),
     
-    ('Audrey', 'Tautou', 'F', '1976-08-09'),
-    ('Mathieu', 'Kassovitz', 'M', '1967-08-03'),
+    (33, 'Audrey', 'Tautou', 'F', '1976-08-09'),
+    (34, 'Mathieu', 'Kassovitz', 'M', '1967-08-03'),
     
-    ('Matthew', 'Macfadyen', 'M', '1974-10-17'),
-    ('Keeley', 'Hawes', 'M', '1976-02-10'),
+    (35, 'Matthew', 'Macfadyen', 'M', '1974-10-17'),
+    (36, 'Keeley', 'Hawes', 'M', '1976-02-10'),
     
-    ('Taraji', 'Henson', 'F', '1970-09-11'),
-    ('Octavia', 'Spencer', 'F', '1972-05-25'),
+    (37, 'Taraji', 'Henson', 'F', '1970-09-11'),
+    (38, 'Octavia', 'Spencer', 'F', '1972-05-25'),
     
-    ('Tommy Lee', 'Lee', 'M', '1946-09-15'),
-    ('Will', 'Smith', 'M', '1968-09-25')
+    (39, 'Tommy Lee', 'Lee', 'M', '1946-09-15'),
+    (40, 'Will', 'Smith', 'M', '1968-09-25')
  ;
     
 -- Add Roles
@@ -184,7 +184,7 @@ insert into Credit value
     (38, 38, 19, 'Dorothy Vaughn'),
     
     (39, 39, 20, 'Kay'),
-    (40, 40, 20, 'Jay'),
+    (40, 40, 20, 'Jay')
 ;
 
 
